@@ -1,0 +1,42 @@
+:root {
+    --bs-primary-rgb: 56, 142, 60;
+    --bs-secondary-rgb: 139, 195, 74;
+}
+
+header {
+    background: rgb(var(--bs-secondary-rgb));
+}
+footer {
+    background: rgb(var(--bs-primary-rgb));
+}
+
+
+.thumbnail {
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #f1f1f1;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+.first-color { 	background: #388e3c; }      /* 56, 142, 60 */
+.second-color { 	background: #8bc34a; }  /* 139, 195, 74 */
+.third-color { 	background: #dce775; }      /* 220, 231, 117 */
+.fourth-color { 	background: #fff59d; }  /* 255, 245, 157 */
+/*
+<div class="center rounded p-0 overflow-hidden mb-3 mt-5" style="width: 160px;">
+	<div style="background: #388e3c; width: 100%; min-height: 20px"></div>
+	<div style="background: #8bc34a; width: 100%; min-height: 20px"></div>
+	<div style="background: #dce775; width: 100%; min-height: 20px"></div>
+	<div style="background: #fff59d; width: 100%; min-height: 20px"></div>
+</div>
+*/
