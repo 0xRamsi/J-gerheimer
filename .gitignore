@@ -1,12 +1,6 @@
 # Dependencies
 node_modules/
 
-# Build output
-public/
-_site/
-dist/
-build/
-
 # Bootstrap / frontend build artifacts
 public/assets/css/*.map
 public/assets/js/*.map
